@@ -1,0 +1,9 @@
+Begin
+   input A, B, C
+   Max = A
+   If (Max>B) and (Max>C) then Max=A
+   else
+        if B>C then Max=B   
+        else Max=C    
+    end if
+End
